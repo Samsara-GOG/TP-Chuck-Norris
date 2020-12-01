@@ -56,3 +56,7 @@ blockquote {
     left: 345px;
     font-size: 0.78rem;
 }
+
+.fa {
+    margin-right: 10px;
+}

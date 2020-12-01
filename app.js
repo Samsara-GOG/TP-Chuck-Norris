@@ -60,7 +60,7 @@ function changeAll(event) {
     punchline = punchlines[Math.floor(Math.random() * (punchlines.length))];
     // Modifier la punchline
     const quoted = document.querySelector(".quote");
-    quoted.textContent = "“" + punchline;
+    quoted.innerHTML = "<i class=\"fa fa-quote-left mr-3 text-success\"></i>" + punchline;
 }
 
 const quote = document.querySelector(".newQuote");
