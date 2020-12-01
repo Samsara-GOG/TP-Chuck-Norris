@@ -10,24 +10,19 @@
 
 // A rendre: lien git du projet
 
-    // Tableau des punchlines
-    const punchlines = [
-        "Si tu te pointes encore tu peux être sûr que tu repars avec la bite dans un Tupperware.",
-        "Chuck Norris peut faire du feu en frottant deux glaçons.",
-        "Chuck Norris a piraté le Pentagone. Avec un grille-pain.",
-        "Chuck Norris peut faire travailler un fonctionnaire.",
-        "Quand Chuck Norris viole la loi, elle en redemande.",
-        "Chuck Norris peut faire des ronds avec une equerre.",
-        "Toi tu commences à me baver sur les rouleaux.",
-        "Chuck Norris a déjà compté jusqu'à l'infini. Deux fois.",
-        "Chuck Norris n'est pas égal à lui-même, il est meilleur.",
-        "Chuck Norris ne ment jamais, c'est la vérité qui se trompe."
-    ];
-// Générer les Punchlines aléatoires
-
-
-
-// console.log(rgb);
+// Tableau des punchlines
+const punchlines = [
+    "Si tu te pointes encore tu peux être sûr que tu repars avec la bite dans un Tupperware.",
+    "Chuck Norris peut faire du feu en frottant deux glaçons.",
+    "Chuck Norris a piraté le Pentagone. Avec un grille-pain.",
+    "Chuck Norris peut faire travailler un fonctionnaire.",
+    "Quand Chuck Norris viole la loi, elle en redemande.",
+    "Chuck Norris peut faire des ronds avec une equerre.",
+    "Toi tu commences à me baver sur les rouleaux.",
+    "Chuck Norris a déjà compté jusqu'à l'infini. Deux fois.",
+    "Chuck Norris n'est pas égal à lui-même, il est meilleur.",
+    "Chuck Norris ne ment jamais, c'est la vérité qui se trompe."
+];
 
 const body = document.body;
 
@@ -61,11 +56,9 @@ function changeAll(event) {
     color4.style.backgroundColor = rgb;
     color4.style.borderColor = rgb;
 
-
-
-    // Générer la punchline aléatoire
+    // Générer la punchline aléatoirement
     punchline = punchlines[Math.floor(Math.random() * (punchlines.length))];
-
+    // Modifier la punchline
     const quoted = document.querySelector(".quote");
     quoted.textContent = "“" + punchline;
 }
