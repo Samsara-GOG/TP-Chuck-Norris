@@ -28,40 +28,33 @@ const body = document.body;
 
 function changeAll(event) {
 
-    // const color = event.target.style = rgb;
-    // const backgroundColor = event.target.style = `background-color: ${rgb}`;
-    // body.innerHTML = backgroundColor;
-    // console.log(color);
-
-    // Modifier les couleurs
-
-    // Générer la couleur aléatoire
+    // Générer la couleur aléatoirement
     const randomBetween = (min, max) => min + Math.floor(Math.random() * (max - min + 1));
     const red = randomBetween(0, 255);
     const green = randomBetween(0, 255);
     const blue = randomBetween(0, 255);
     const rgb = `rgb(${red},${green},${blue})`;
 
-    // Background-color de body
+    // Modifier les couleurs
+    // Couleur de fond du body
     const color1 = document.querySelector("body");
     color1.style.backgroundColor = rgb;
-    // Color du texte de description
+    // Couleur du texte de la citation
     const color2 = document.querySelector(".quote");
     color2.style.color= rgb;
-    // Color du texte de author
+    // Couleur du texte de l'auteur
     const color3 = document.querySelector(".author");
     color3.style.color = rgb;
-    // Color du background et border de newQuote
+    // Couleur du fond et de la bordure du bouton
     const color4 = document.querySelector(".newQuote");
     color4.style.backgroundColor = rgb;
     color4.style.borderColor = rgb;
-
     // Générer la punchline aléatoirement
     punchline = punchlines[Math.floor(Math.random() * (punchlines.length))];
-    // Modifier la punchline
+    // Modifier la punchline avec un symbole de citation
     const quoted = document.querySelector(".quote");
     quoted.innerHTML = "<i class=\"fa fa-quote-left mr-3 text-success\"></i>" + punchline;
 }
-
+// Au click du bouton, la fonction changeAll se lance
 const quote = document.querySelector(".newQuote");
 quote.addEventListener("click", changeAll);
