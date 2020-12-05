@@ -12,16 +12,29 @@
 
 // Tableau des punchlines
 const punchlines = [
+    "Rien ne sert de jouer aux échecs avec Chuck Norris, il ne connait pas l'échec.",
+    "Rien ne sert de chercher les pokemons. Chuck Norris les a déjà tous attrapé.",
+    "À son mariage, Chuck Norris avait Oncle Ben's en personne pour lui jeter du riz.",
     "Si tu te pointes encore tu peux être sûr que tu repars avec la bite dans un Tupperware.",
-    "Chuck Norris peut faire du feu en frottant deux glaçons.",
-    "Chuck Norris a piraté le Pentagone. Avec un grille-pain.",
-    "Chuck Norris peut faire travailler un fonctionnaire.",
+    "Si Chuck Norris avait été dans « Lost », il aurait ramené l'île à la rame, jusqu'au Texas.",
+    "Un jour, Chuck Norris a perdu son alliance. Depuis c'est le bordel dans les terres du milieu...",
+    "Les ennemis de Chuck Norris lui disent souvent d'aller au diable. Le Diable aimerait bien qu'ils arrêtent.",
+    "Toi tu commences à me baver sur les rouleaux.",
     "Quand Chuck Norris viole la loi, elle en redemande.",
     "Chuck Norris peut faire des ronds avec une equerre.",
-    "Toi tu commences à me baver sur les rouleaux.",
+    "Chuck Norris peut faire travailler un fonctionnaire.",
     "Chuck Norris a déjà compté jusqu'à l'infini. Deux fois.",
+    "Chuck Norris peut faire du feu en frottant deux glaçons.",
+    "Chuck Norris a piraté le Pentagone. Avec un grille-pain.",
     "Chuck Norris n'est pas égal à lui-même, il est meilleur.",
-    "Chuck Norris ne ment jamais, c'est la vérité qui se trompe."
+    "Chuck Norris ne ment jamais, c'est la vérité qui se trompe.",    
+    "Chuck Norris a un jour avalé un paquet entier de somnifères. Il a cligné des yeux.",
+    "Quand Chuck Norris s’est mis au judo, David Douillet s’est mis aux pièces jaunes.",
+    "Chuck Norris n'allume jamais la lumière, c'est l'obscurité qui s'éteint devant lui",
+    "Wall Street n'est que la 3ème bourse au monde, il y a d'abord les deux de Chuck Norris.",
+    "Chuck Norris enfant n'envoyait pas de lettres au Père Noël. Il envoyait des ultimatums.",
+    "Chuck Norris n'a pas reçu son diplôme du bac. Les correcteurs comptent encore les points.",
+    "Chuck Norris est mort depuis 10 ans, mais la Mort n'a pas encore trouvé le courage d'aller lui dire."
 ];
 
 const body = document.body;
