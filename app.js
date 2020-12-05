@@ -49,6 +49,9 @@ function changeAll(event) {
     const color4 = document.querySelector(".newQuote");
     color4.style.backgroundColor = rgb;
     color4.style.borderColor = rgb;
+    // Couleur de la source des citations
+    const color5 = document.querySelector(".source");
+    color5.style.color = rgb;
     // Générer la punchline aléatoirement
     punchline = punchlines[Math.floor(Math.random() * (punchlines.length))];
     // Modifier la punchline avec un symbole de citation
