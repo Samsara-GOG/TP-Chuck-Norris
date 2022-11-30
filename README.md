@@ -1,4 +1,4 @@
-# Projet: générateur de punchlines sur "Chuck Norris" dans le DOM d'une page Web
+# Projet : générateur de punchlines sur "Chuck Norris" dans le DOM d'une page Web
 
 <p align="center">
     <img src="https://samsara-portfolio.netlify.app/img/portfolio/punchlineschuck.jpg" alt="Interface Générateur punchlines dédiées à Chuck Norris" height="250">
