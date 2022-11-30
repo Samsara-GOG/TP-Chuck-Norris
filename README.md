@@ -1,9 +1,14 @@
-# Projet: générateur de punchlines de "Chuck Norris" dans le DOM d'une page Web
+# Projet: générateur de punchlines sur "Chuck Norris" dans le DOM d'une page Web
+
+<p align="center">
+    <img src="https://samsara-portfolio.netlify.app/img/portfolio/punchlineschuck.jpg" alt="Interface Générateur punchlines dédiées à Chuck Norris" height="250">
+</p>
+
 
 ## Informations :
-* Dans un tableau, stocker au moins 10 punchlines de Chuck Norris
-* A chaque click du bouton
-  * génération d'une couleur aléatoire
-  * récupération aléatoire d'une citation parmi une liste de punchlines
-  * Afficher la nouvelle phrase
-  * Remplacer l'ancienne couleur du texte/bouton/arrière-plan par la nouvelle couleur
+* Dans un tableau, stockage d'au moins 23 punchlines sur Chuck Norris
+* A chaque click du bouton `New quote` :
+  * Récupération aléatoire d'une punchline parmi une liste statique
+  * Affichage de la nouvelle punchline
+  * Génération d'une nouvelle couleur aléatoire
+  * Modification de l'ancienne couleur du texte/bouton/arrière-plan par la nouvelle couleur générée
