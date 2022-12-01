@@ -1,7 +1,7 @@
 # Projet : générateur de punchlines sur "Chuck Norris" dans le DOM
 
 <p align="center">
-    <img src="https://samsara-portfolio.netlify.app/img/portfolio/punchlineschuck.jpg" alt="Interface Générateur punchlines dédiées à Chuck Norris" height="250">
+    <img src="https://samsara-portfolio.netlify.app/img/portfolio/punchlineschuck.jpg" alt="Interface Générateur punchlines dédiées à Chuck Norris" height="180">
 </p>
 
 Pour tester :
