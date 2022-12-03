@@ -1,16 +1,3 @@
-// Objectif: Reproduire un générateur de punchlines "Chuck Norris"
-
-// Consignes:
-// - Dans un tableau, stocker au moins 10 punchlines de Chuck Norris
-// - A chaque click du bouton
-// o générer une couleur aléatoire 
-// o récupérer aléatoirement une des punchlines
-// o Afficher la nouvelle phrase
-// o Remplacer l'ancienne couleur du texte/bouton/arrière-plan par la nouvelle
-
-// A rendre: lien git du projet
-
-// Tableau des punchlines
 const punchlines = [
     "Rien ne sert de jouer aux échecs avec Chuck Norris, il ne connait pas l'échec.",
     "Rien ne sert de chercher les pokemons. Chuck Norris les a déjà tous attrapé.",
@@ -40,37 +27,45 @@ const punchlines = [
 const body = document.body;
 
 function changeAll(event) {
-
-    // Générer la couleur aléatoirement
+    
+    /* Générer aléatoirement la couleur */
     const randomBetween = (min, max) => min + Math.floor(Math.random() * (max - min + 1));
     const red = randomBetween(0, 255);
     const green = randomBetween(0, 255);
     const blue = randomBetween(0, 255);
     const rgb = `rgb(${red},${green},${blue})`;
 
-    // Modifier les couleurs
+    /* Modifier les couleurs */
+    
     // Couleur de fond du body
     const color1 = document.querySelector("body");
     color1.style.backgroundColor = rgb;
+    
     // Couleur du texte de la citation
     const color2 = document.querySelector(".quote");
     color2.style.color= rgb;
+    
     // Couleur du texte de l'auteur
     const color3 = document.querySelector(".author");
     color3.style.color = rgb;
+    
     // Couleur du fond et de la bordure du bouton
     const color4 = document.querySelector(".newQuote");
     color4.style.backgroundColor = rgb;
     color4.style.borderColor = rgb;
+    
     // Couleur de la source des citations
     const color5 = document.querySelector(".source");
     color5.style.color = rgb;
+    
     // Générer la punchline aléatoirement
     punchline = punchlines[Math.floor(Math.random() * (punchlines.length))];
+    
     // Modifier la punchline avec un symbole de citation
     const quoted = document.querySelector(".quote");
     quoted.innerHTML = "<i class=\"fa fa-quote-left mr-3 text-success\"></i>" + punchline;
 }
-// Au click du bouton, la fonction changeAll se lance
+
+// Au click du bouton, la fonction changeAll est invoquée
 const quote = document.querySelector(".newQuote");
 quote.addEventListener("click", changeAll);
